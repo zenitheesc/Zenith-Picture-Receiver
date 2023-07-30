@@ -54,14 +54,11 @@ All done in Python 3 using TkInter, with the [Azure Theme](https://github.com/rd
 ## Steps to run and debug
 
 
-run:
-
 ```console
 $ pip install -r requirements.txt
 $ python3 ZenPictureReceiver.py
 ```
 
-python3 ZenPictureReceiver.py
 
 
 <p align="center">
