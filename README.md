@@ -31,11 +31,6 @@
     </a>
 </p>
 
-<p align="center">
-    <a href="#environment-and-tools">Environment and Tools</a> •
-    <a href="#steps-to-run-and-debug">Steps to run and debug</a> •
-    <a href="#how-to-contribute">How to contribute?</a> •
-</p>
 
 <img title="App main screen in opperation" alt="Alt text" src="/ScreenCaptue.png">
 
