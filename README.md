@@ -1,5 +1,5 @@
-<h1 align="center" style="color:white; background-color:black">[PROJECT NAME]</h1>
-<h4 align="center">[insert *brief* project description]</h4>
+<h1 align="center" style="color:white; background-color:black">[Zenith Picture Receiver]</h1>
+<h4 align="center">[Python Tkinter GUI for jpeg reception via the serial port]</h4>
 
 <p align="center">
 	<a href="http://zenith.eesc.usp.br/">
@@ -37,21 +37,32 @@
     <a href="#how-to-contribute">How to contribute?</a> •
 </p>
 
+<img title="App main screen in opperation" alt="Alt text" src="/ScreenCaptue.png">
+
+
+## What is this?
+
+This is part of the Zoio project, presented [HERE](https://github.com/zenitheesc/Zoio/tree/main).
+
+This software runs in our reception computer, collecting the byte stream from our receiver device. It is responsible for decoding and saving the jpeg images sent from our stratospheric sonde.
+
+
 ## Environment and tools
 
-`Add list of dependencies and software needed to run this project (if possible add the versions that were used in development).`
+All done in Python 3 using TkInter, with the [Azure Theme](https://github.com/rdbende/Azure-ttk-theme)
 
 ## Steps to run and debug
 
-`A simple list of steps indicating how one can run and test the project.`
 
-## How to contribute
+run:
 
-`(optional, depends on the project) list of simple rules to help people work on the project.`
+```console
+$ pip install -r requirements.txt
+$ python3 ZenPictureReceiver.py
+```
 
-`Examples: How to format a pull request\n How to format an issue`
+python3 ZenPictureReceiver.py
 
----
 
 <p align="center">
     <a href="http://zenith.eesc.usp.br">
